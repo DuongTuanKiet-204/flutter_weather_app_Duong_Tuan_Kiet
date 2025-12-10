@@ -103,23 +103,23 @@ Chạy toàn bộ test:
 
 ![Favorite](screenshots/Favorite.png)
 
-###  Wather Map
+###  Weather Map
 
-![Wather Map](screenshots/Weathermap.png)
-![Wather Map](screenshots/Weathermap1.png)
-![Wather Map](screenshots/Weathermap2.png)
-![Wather Map](screenshots/Weathermap3.png)
+![Weather Map](screenshots/Weathermap.png)
+![Weather Map](screenshots/Weathermap1.png)
+![Weather Map](screenshots/Weathermap2.png)
+![Weather Map](screenshots/Weathermap3.png)
 ---
 
-## ▶️ Cách chạy project
+## ▶ Cách chạy project
 
-### **1️⃣ Cài đặt package**
+###  Cài đặt package**
 flutter pub get
 
-### **2️⃣ Tạo file `.env`**
+###  Tạo file `.env`**
 OPENWEATHER_API_KEY=your_api_key
 
-### **3️⃣ Chạy app**
+###  Chạy app**
 flutter run
 
 ---
