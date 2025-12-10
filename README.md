@@ -105,10 +105,10 @@ Chạy toàn bộ test:
 
 ###  Wather Map
 
-![Wather Map](screenshots/Wathermap.png)
-![Wather Map](screenshots/Wathermap1.png)
-![Wather Map](screenshots/Wathermap2.png)
-![Wather Map](screenshots/Wathermap3.png)
+![Wather Map](screenshots/Weathermap.png)
+![Wather Map](screenshots/Weathermap1.png)
+![Wather Map](screenshots/Weathermap2.png)
+![Wather Map](screenshots/Weathermap3.png)
 ---
 
 ## ▶️ Cách chạy project
