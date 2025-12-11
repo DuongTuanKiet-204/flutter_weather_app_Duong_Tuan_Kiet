@@ -1,13 +1,14 @@
 # DuongTuanKiet
 # 2224801030271
-#  Flutter Weather App  
+
+# Flutter Weather App
 Ứng dụng thời tiết hiện đại xây dựng bằng Flutter, sử dụng OpenWeatherMap API, hỗ trợ xem thời tiết theo thời gian thực, dự báo, bản đồ, tìm kiếm, cache offline, xử lý lỗi và chuyển đổi giao diện ban đêm.
 
 ---
 
 ## Tính năng chính
 
-### 🌦 **Weather Features**
+### Weather Features
 - Xem thời tiết hiện tại (nhiệt độ, độ ẩm, gió, áp suất…)
 - Dự báo theo giờ (dữ liệu 3 giờ)
 - Dự báo 5 ngày
@@ -19,23 +20,27 @@
 - Loading shimmer
 - Xử lý lỗi: không mạng, API key sai, nhập sai tên thành phố
 
-### 🗺 **Màn hình khác**
+### Màn hình khác
 - Search Screen  
 - Map Screen  
 - Settings Screen (chuyển °C ↔ °F)
 
-###  UI Features
+### UI Features
 - Gradient color thay đổi tùy theo thời tiết
-- **Night mode** dựa trên icon API (01n → 04n)
+- Night mode dựa trên icon API (01n → 04n)
 - Giao diện mượt và bố cục chuyên nghiệp
 
 ---
 
-##  Hướng dẫn cấu hình API
+## Hướng dẫn cấu hình API
 
 ### Lấy API key  
 Đăng ký tại:  
- https://openweathermap.org/api  
+https://openweathermap.org/api  
+
+---
+
+## Cấu trúc thư mục
 
 lib/
 ├── models/
@@ -71,69 +76,70 @@ lib/
 
 ---
 
+## Ảnh minh họa giao diện
 
-###  Clear / Sunny Weather  
+### Clear / Sunny Weather  
 ![Clear Weather](screenshots/sunny.png)
 
-###  Rainy Weather  
+### Rainy Weather  
 ![Rainy Weather](screenshots/rainy.png)
 
-###  Cloudy Weather  
+### Cloudy Weather  
 ![Cloudy Weather](screenshots/cloudy.png)
 
-###  Night Mode  
+### Night Mode  
 ![Night Mode](screenshots/night.png)
 
-###  Search Screen  
+### Search Screen  
 ![Search Screen](screenshots/search.png)
 ![Search Screen](screenshots/search1.png)
 
-###  Forecast Screen  
+### Forecast Screen  
 ![Forecast Screen](screenshots/forecast.png)
 
-###  Error State
+### Error State  
 ![Error State](screenshots/error.png)
 
-###  Loading State
+### Loading State  
 ![Loading State](screenshots/loading.png)
 
-###  Unit Tests
-Chạy toàn bộ test:
+### Unit Tests  
 ![Unit Tests](screenshots/UnitTests.png)
 
-###  Favorite
-
+### Favorite  
 ![Favorite](screenshots/Favorite.png)
 
-###  Weather Map
-
+### Weather Map  
 ![Weather Map](screenshots/Weathermap.png)
 ![Weather Map](screenshots/Weathermap1.png)
 ![Weather Map](screenshots/Weathermap2.png)
 ![Weather Map](screenshots/Weathermap3.png)
+
 ---
 
-## ▶ Cách chạy project
+## Cách chạy project
 
-###  Cài đặt package**
+### Cài đặt package
 flutter pub get
 
-###  Tạo file `.env`**
+
+### Tạo file `.env`
 OPENWEATHER_API_KEY=your_api_key
 
-###  Chạy app**
+### Chạy app
 flutter run
+
 
 ---
 
-Bao gồm:
+## Unit Tests bao gồm
 - Kiểm tra parse JSON  
 - Kiểm tra API error  
 - Widget test (smoke test)
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 - Flutter (Dart)
 - Provider
 - OpenWeather API
@@ -145,7 +151,7 @@ Bao gồm:
 
 ---
 
-##  Hạn chế hiện tại
+## Hạn chế hiện tại
 - Weather Alert API có thể không hoạt động ở nhiều khu vực
 - Map chưa có offline mode
 - Giao diện night mode chỉ dựa vào icon API, chưa phải full theme
@@ -153,19 +159,20 @@ Bao gồm:
 
 ---
 
-##  Yêu cầu nộp bài đã đáp ứng
-- ✔ API hoạt động  
-- ✔ Location service  
-- ✔ Search  
-- ✔ Offline caching  
-- ✔ Forecast  
-- ✔ Error handling  
-- ✔ Loading state  
-- ✔ Pull-to-refresh  
-- ✔ Settings screen  
-- ✔ Không chứa API key  
-- ✔ Có `.env.example`  
-- ✔ Đầy đủ screenshot  
-- ✔ Test case đã viết  
+## Yêu cầu nộp bài đã đáp ứng
+- API hoạt động  
+- Location service  
+- Search  
+- Offline caching  
+- Forecast  
+- Error handling  
+- Loading state  
+- Pull-to-refresh  
+- Settings screen  
+- Không chứa API key  
+- Có `.env.example`  
+- Đầy đủ screenshot  
+- Test case đã viết  
+
 
 ---
