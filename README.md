@@ -39,33 +39,33 @@
 
 lib/
 ├── models/
-│   ├── weather_model.dart
-│   ├── forecast_model.dart
-│   └── weather_alert_model.dart
+│ ├── weather_model.dart
+│ ├── forecast_model.dart
+│ └── weather_alert_model.dart
 │
 ├── providers/
-│   ├── weather_provider.dart
-│   └── settings_provider.dart
+│ ├── weather_provider.dart
+│ └── settings_provider.dart
 │
 ├── screens/
-│   ├── home_screen.dart
-│   ├── search_screen.dart
-│   ├── forecast_screen.dart
-│   ├── map_screen.dart
-│   └── settings_screen.dart
+│ ├── home_screen.dart
+│ ├── search_screen.dart
+│ ├── forecast_screen.dart
+│ ├── map_screen.dart
+│ └── settings_screen.dart
 │
 ├── services/
-│   ├── weather_service.dart
-│   ├── location_service.dart
-│   └── storage_service.dart
+│ ├── weather_service.dart
+│ ├── location_service.dart
+│ └── storage_service.dart
 │
 ├── widgets/
-│   ├── current_weather_card.dart
-│   ├── hourly_forecast_list.dart
-│   ├── daily_forecast_section.dart
-│   ├── weather_details_section.dart
-│   ├── loading_shimmer.dart
-│   └── error_widget_custom.dart
+│ ├── current_weather_card.dart
+│ ├── hourly_forecast_list.dart
+│ ├── daily_forecast_section.dart
+│ ├── weather_details_section.dart
+│ ├── loading_shimmer.dart
+│ └── error_widget_custom.dart
 │
 └── main.dart
 
